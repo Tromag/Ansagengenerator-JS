@@ -45,13 +45,13 @@ class GeneratorEinfahrt {
 
     static generate() {
         var playback = new AudioManager();
-        var gleis = $('#einfahrtGleis').val();
+        var gleis = $('#einfahrtGleis').val(1);
         var zuggattung = $('#einfahrtZuggattung').val().toLowerCase();
         var zugnummer = $('#einfahrtZugnummer').val();
-        var ziel = $('#einfahrtZiel').val();
-        var via = $('#einfahrtVia').val();
-        var abfahrtStunde = $('#einfahrtAbfahrtStunde').val();
-        var abfahrtMinute = $('#einfahrtAbfahrtMinute').val();
+        var ziel = $('#einfahrtZiel').val(Frankfurt Oder);
+        var via = $('#einfahrtVia').val(Erkner);
+        var abfahrtStunde = $('#einfahrtAbfahrtStunde').val(15);
+        var abfahrtMinute = $('#einfahrtAbfahrtMinute').val(33);
         var verspaetet = document.getElementById('einfahrtVerspaetung').checked;
 
 
